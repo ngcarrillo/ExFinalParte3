@@ -1,5 +1,7 @@
 package busqueda;
 
+import javax.swing.JOptionPane;
+
 public class Busqueda {
 
     public static void main(String[] args) {
@@ -28,6 +30,9 @@ public class Busqueda {
             } else {
                 return busquedaBinaria(listado, clave, posMitad + 1, posFinal);
             }
+       
         }
+        
+  
     }
 }
